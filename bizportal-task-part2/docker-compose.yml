@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  unique-tail-moves-api:
+    image: golang:1.21
+    container_name: unique-tail-moves-api
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    command: bash
+    working_dir: /go/src/unique-tail-moves-api
+    volumes:
+      - ../:/go/src/unique-tail-moves-api
+    networks:
+      - local_network
+networks:
+  local_network:
