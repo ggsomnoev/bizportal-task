@@ -25,7 +25,7 @@ I decided to use [Clean Architecture](https://manakuro.medium.com/clean-architec
 1. Clone the repository:
 
    ```shell
-   git clone https://github.com/ggsomnoev/task-rope-bridge-georgi-somnoev.git
+   git clone https://github.com/ggsomnoev/bizportal-task.git
    ```
 
 2. Change into the project directory:
